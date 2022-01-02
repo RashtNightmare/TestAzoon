@@ -25,9 +25,9 @@ class CreateTestsTable extends Migration
             $table->integer('title');
             $table->foreignId('major_id');
             $table->foreignId('lesson_id');
-            $table->string('date');
-            $table->string('duration'); //per minuet
-            $table->integer('start_time');
+            $table->string('date');//I changed to string cuz of MariaDB version error
+            $table->string('duration'); //per minuet - I changed to string cuz of MariaDB version error
+            $table->integer('start_time');//I changed to string cuz of MariaDB version error
             $table->timestamps();
         });
     }

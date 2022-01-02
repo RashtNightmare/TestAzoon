@@ -15,6 +15,7 @@ class RoleSeeder extends Seeder
      */
     public function run()
     {
+      /*the seeder was ran and added data tp database successfully */
         $roles=['Student','Teacher','Admin'];
         foreach($roles as $item){
          Role::query()->create([

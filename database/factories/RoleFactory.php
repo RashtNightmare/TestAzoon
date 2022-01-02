@@ -15,6 +15,8 @@ class RoleFactory extends Factory
 
     public function definition()
     {
+      /*after i run it in tinker it says name doesn't have a default value , but I just gave it a fake value ..idk 
+      what's wrong with it*/
            return [
              'name' => $this->faker->name,
              'created_at' => now(),
