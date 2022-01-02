@@ -11,6 +11,7 @@ class RoleFactory extends Factory
      *
      * @return array
      */
+    //set our directed model which is Role in here
     protected $model = \App\Models\Role::class;
 
     public function definition()
